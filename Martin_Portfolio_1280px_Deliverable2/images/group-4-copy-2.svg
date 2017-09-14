@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="407" height="122" viewBox="0 0 407 122">
+    <defs>
+        <linearGradient id="c" x1="100%" x2="0%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#EE4D5F"/>
+            <stop offset="20%" stop-color="#F36C6C"/>
+            <stop offset="40%" stop-color="#F8867A"/>
+            <stop offset="60%" stop-color="#FB9F88"/>
+            <stop offset="80%" stop-color="#FEB796"/>
+            <stop offset="100%" stop-color="#FFCFA5"/>
+        </linearGradient>
+        <rect id="b" width="385" height="100" rx="8"/>
+        <filter id="a" width="108.8%" height="134%" x="-4.4%" y="-16%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(11 10)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="url(#c)" xlink:href="#b"/>
+        </g>
+        <text fill="#FFF" font-family="PathwayGothicOne-Book, Pathway Gothic One" font-size="30" letter-spacing="3" transform="translate(11 10)">
+            <tspan x="163" y="62">Nex</tspan> <tspan x="207.31" y="62" letter-spacing="4.5">t</tspan>
+        </text>
+    </g>
+</svg>

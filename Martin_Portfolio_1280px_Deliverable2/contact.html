@@ -1,0 +1,130 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Cardo|Pathway+Gothic+One" rel="stylesheet">
+
+ 	<title>
+ 		Brennan Martin
+ 	</title>
+ </head>
+ <body>
+
+
+ 	<header>
+		
+  			<div class="topnav" id="myTopnav">
+				  
+				  <a href="contact.html">Contact</a>
+				  <a href="about.html">About</a>
+				  <a href="index.html">Home</a>
+
+			</div>
+
+	</header>
+
+
+
+	<main>
+		
+		<section id ="title_image" class="full-width">
+			<div class ="full-width">
+
+			<img id ="contact_image" src="images/contact_image.jpg" alt="Hero Image">
+            
+
+            </div>
+			
+		</section>
+
+		<article class="full-width">
+			<div class="full-width" id="sayhi">
+
+				
+				<h2> I mean, you've made it this far... might as well say "hi".</h2>
+
+				<img src="images/hello.jpg">
+
+			</div>
+
+		</article>
+
+
+
+		<section class="full-width" id="textchangezone">
+			
+
+	            <!-- Changing the text -->
+	            
+	            <div class="full-width">
+	            	<input type="text" id="inputText" class="full-width">
+	            </div>
+	            <div class="full-width">
+	            	<button id ="textChanger"> Click me to say hello! </button>
+	            </div>
+
+	            <script>
+	            	
+	            	
+
+		            document.getElementById("textChanger").onclick = function(){
+
+		            var userInput = document.getElementById("inputText").value; 
+					document.getElementById("inputText").value = "You said: " + userInput + " Brennan: Hello to you too!";
+					}
+
+	            </script>
+
+	            <!-- Appending Text to existing text -->
+
+	            <!-- Adding some HTML -->
+
+
+
+		</section>
+
+		<form class="full-width" id = "contact_form"> 
+			
+			<h3> Contact</h3>
+
+			<div class ="half-width" id="normal_input">
+
+				<label> Your Name </label>
+				<input type="text" name="name" for "name" required="">
+			
+
+            </div>
+			
+			<div class ="half-width">
+	        
+	            <label> Comments </label>
+
+	            <input id="textchange" type="text" name="textchange" required="">
+
+
+			</div>
+				
+			
+			<div class ="half-width" id ="normal_input">
+	        
+	            <label> Your Email </label>
+				<input type="email" name="email" for "email" required="">
+
+			</div>
+
+
+				<input id ="submit" type='button' value='Submit'/>
+
+		</form>
+
+		
+
+
+	</main>
+
+
+
+ </body>
+
+
+ </html>
