@@ -1,0 +1,371 @@
+/***** BASE STYLES ******/
+
+body {
+    font-family: 'Cardo', sans-serif;
+}
+
+
+/***** Top NAV ******/
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #f16664;
+    overflow: hidden;
+    padding: 10px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #fff;
+    color: #f16664;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #f16664;
+    color: white;
+}
+
+
+/****** GRID ******/
+
+.full-width {
+    width: 1280px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+.third-width-right {
+    width: 400px;
+}
+
+/****** Header Home ******/
+
+header{
+  height: 100
+  px;
+  background-size: cover;
+}
+
+header h3 {
+	padding: 60px 0 0 50px;
+	text-transform:uppercase;
+    text-decoration:
+    font-size:16px;
+    color:#f16664;
+
+}
+
+
+nav {
+    float: right;
+    padding: 60px;
+}
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform:uppercase;
+    text-decoration:
+    font-size:16px;
+    color:#f16664;
+    padding-left: 40px;
+}
+
+#hero_image{
+    display: block;
+    margin: auto;
+    width: 40%;
+    width: 500px;
+	height: 500px;
+	object-fit: contain;
+	opacity: .95;
+}
+
+h1 {
+	width: 279px;
+	height: 68px;
+	font-family: 'Cardo';
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	color: #f16664;
+}
+
+h2{
+	
+	font-family: 'PathwayGothicOne', Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: #f16664;
+
+}
+
+#grandcircush2{
+
+	width: 391px;
+	height: 29px;
+	font-family: 'PathwayGothicOne', Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+	color: #f16664;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+p {
+	font-family: 'PathwayGothicOne', Arial, Helvetica, sans-serif;
+}
+
+#jobTitle {
+	text-transform: uppercase;
+	color: #a0a0a0;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+/****** Section ******/
+
+#images{
+  height: 400px;
+  text-align: center;
+}
+
+
+#images img {
+	width: 385px;
+	height: 400px;
+	margin: auto;
+	display: inline-block;
+	text-align: center;
+
+}
+
+#next_button {
+
+	width: 385px;
+	height: 100px;
+	object-fit: contain;
+	text-align: center;
+	padding: 50px;
+
+}
+
+
+/****** About Page ******/
+
+
+#title_image h2{
+	width: 391px;
+	height: 29px;
+	font-family: 'PathwayGothicOne', Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	text-align: center;
+	color: #fff;
+	margin: auto;
+}
+
+
+#about_image {
+	display: block;
+    margin: auto;
+    width: 40%;
+    width: 1280px;
+	height: 279px;
+	object-fit: contain;
+}
+
+#contact_image {
+	display: block;
+    margin: auto;
+    width: 40%;
+    width: 1280px;
+	height: 279px;
+	object-fit: contain;
+}
+
+
+main article {
+
+	height:400px;
+	width: 1280px;
+	text-align: center;
+	display: inline-block;
+}
+
+#quote img {
+
+	float: left;
+	height: 143px;
+	width: 218px;
+	padding-top: 128px;
+	padding-left: 250px;
+}
+
+#quote blockquote{
+
+	font-family: PathwayGothicOne-Book;
+	font-size: 50px;
+	color: #F16664;
+	letter-spacing: 0;
+	float: left;
+	padding-top:128px;
+
+}
+
+
+
+#passion {
+	display: block;
+    margin: auto;
+	object-fit: contain;
+	height:200px;
+	width: 1280px;
+	background-image: url('images/passion.jpg');
+	background-size: cover;
+
+}
+
+
+#passions_list {
+	font-family: 'PathwayGothicOne', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  padding: 50px 0px 200px 300px;
+  padding-top: 40px;
+}
+
+/****** Contact ******/
+
+#sayhi h2{
+	
+	font-family: PathwayGothicOne-Book;
+	font-size: 50px;
+	color: #F16664;
+	letter-spacing: 0;
+	padding-top:128px;
+	text-align: center;
+
+}
+
+#sayhi img {
+	height: 161px;
+	width: 200;
+	padding-top: 72px;
+	padding-left: 87px;
+
+}
+
+#textchangezone{
+	margin: auto;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#inputText{
+	width: 400px;
+	height: 100px;
+	
+}
+
+#textChanger{
+	width: 400px;
+	height: 100px;
+	object-fit: contain;
+	padding: 10px;
+	border-radius: 8px;
+	color: #F16664;
+	background-color: #Fff;
+	box-shadow: 0 1px 11px 0 rgba(0,0,0,0.30);
+	font-size: 1em;
+
+
+}
+
+#contact_form {
+
+	background-color: #F16664;
+	height: 400px;
+	width: 1280px;
+	box-shadow: 0 1px 11px 0 rgba(0,0,0,0.30);
+	border-radius: 8px;
+
+}
+
+
+#contact_form h3{
+
+	padding: 50px;
+	color: #fff;
+}
+
+#contact_form label{
+
+	color: #fff;
+}
+
+#normal_input{
+
+	padding-left: 50px;
+
+
+
+}
+
+#comments{
+
+	height: 165px;
+	
+}
+
+
+#submit {
+
+	background: #FFFFFF;
+	box-shadow: 0 1px 11px 0 rgba(0,0,0,0.30);
+	border-radius: 4px;
+
+
+/* Submit: */
+font-family: PathwayGothicOne-Book;
+font-size: 20px;
+color: #F16664;
+letter-spacing: 0.4px;
+}
+
+
+/****** Footer **
+footer{
+padding-top: 200px;
+  height: 40px;
+  width: 1280px;
+  text-align: center;
+  background: url('images/footer.jpg');
+  background-repeat: no-repeat;
+  
+}
+***/
+
